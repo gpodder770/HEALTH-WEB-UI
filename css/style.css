@@ -20,6 +20,12 @@ body {
 h2 {
   font-size: 42px;
   font-weight: 700;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+h2 span {
+  color: #12a3b0;
 }
 
 .title-border-1 {
@@ -48,6 +54,7 @@ p {
 
 .banner-section h2 {
   margin-top: 150px;
+  text-align: left;
 }
 
 .banner-section h1 {
@@ -65,30 +72,12 @@ p {
   padding: 75px 0;
 }
 
-.welcome-section h2 {
-  text-align: center;
-  letter-spacing: 10px;
-}
-
-.welcome-section h2 span {
-  color: #12a3b0;
-}
-
 .welcome-section p {
   text-align: center;
   padding: 0 300px;
 }
 
 /* Features Section */
-.features-section h2 {
-  text-align: center;
-  letter-spacing: 10px;
-}
-
-.features-section h2 span {
-  color: #12a3b0;
-}
-
 .features-section p {
   text-align: center;
   padding: 0 300px;
@@ -97,16 +86,17 @@ p {
 .features {
   text-align: center;
   border: 2px dashed #333;
-  padding: 20px;
-  border-radius: 25px;
+  padding: 10px;
+  border-radius: 5px;
   transition: 0.4s ease-in-out;
-  margin-left: 10px;
+  margin-right: 30px;
 }
 
 .features p {
   padding: 0;
   margin: 20px 0 0;
-  font-size: 15px;
+  font-size: 12px;
+  font-weight: 700;
 }
 
 .features:hover {
@@ -120,4 +110,179 @@ p {
 
 .features:hover svg path {
   fill: #fff;
+}
+
+.features-desc {
+  margin-top: 40px;
+}
+
+.features-desc p {
+  padding: 0;
+  text-align: left;
+  margin: 20px 0;
+  color: black;
+  font-size: 15px;
+}
+
+.features-desc i {
+  display: block;
+  text-align: center;
+  line-height: 25px;
+  font-size: 20px;
+  color: #12a3b0;
+}
+
+.checkbox {
+  margin-top: 15px;
+}
+
+.btn-features {
+  margin: 25px 0 0 0;
+}
+
+/* Comprehensive Dental Care Section */
+.dental_care-section {
+  padding: 75px 0;
+}
+
+.dental_care-section p {
+  text-align: center;
+  padding: 0 300px;
+}
+
+.care_text {
+  padding: 40px;
+  background-color: #12a3b0;
+}
+
+.care-pics h4 {
+  text-align: center;
+  margin-top: 200px;
+  color: #fff;
+}
+
+.care-pics p {
+  padding: 0;
+  color: #fff;
+}
+
+/* Review Section */
+.review-section {
+  background-color: #65c2cd;
+  padding: 75px;
+}
+
+.review-section h2 {
+  color: #fff;
+}
+
+.review-section p {
+  text-align: center;
+  padding: 0 300px;
+  color: #fff;
+}
+
+.reviews {
+  margin-top: 50px;
+}
+
+.review {
+  background-color: #fff;
+  padding: 30px 30px 30px 0;
+  border-radius: 10px;
+}
+
+.review i {
+  display: block;
+  text-align: right;
+  font-size: 30px;
+}
+
+.review p {
+  padding: 0;
+  text-align: left;
+  color: #333;
+  margin: 10px 0 0;
+  font-size: 15px;
+}
+
+.reviewer {
+  margin-top: 40px;
+}
+
+.owl-carousel .owl-item img {
+  width: 70px !important;
+  float: right;
+}
+
+.reviewer-desc {
+  padding: 10px;
+}
+
+.reviewer p, .reviewer h5 {
+  text-align: left;
+  padding: 0;
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+/* Doctors Section */
+.doctors-section {
+  padding: 75px 0;
+}
+
+.doctors-section p {
+  text-align: center;
+  padding: 0 300px;
+}
+
+.doctors {
+  margin-top: 40px;
+}
+
+.doctors img {
+  display: block;
+  margin: 0 auto;
+}
+
+.doctors h4 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.doctors h6 {
+  text-align: center;
+  font-weight: 700;
+}
+
+.doctors p {
+  text-align: center;
+  padding: 15px 25px;
+  font-size: 15px;
+}
+
+.doctor-contact {
+  margin-top: 10px;
+}
+
+.doctor-contact i {
+  color: #12a3b0;
+}
+
+.doctor-contact p {
+  padding: 0 0 0 10px;
+  display: inline;
+  color: #12a3b0;
+}
+
+.doctor-contact ul {
+  list-style: none;
+  padding: 5px;
+}
+
+.doctor-contact ul li {
+  display: inline;
+  padding-right: 15px;
+  font-size: 25px;
+  color: #12a3b0;
 }
