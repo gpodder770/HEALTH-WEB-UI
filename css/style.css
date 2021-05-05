@@ -1,0 +1,123 @@
+/*======== Raleway+ MontSerat ==========*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;500;600;700;800;900&display=swap');
+
+/*========
+Global css
+========*/
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.btn {
+  background-color: #12a3b0;
+  color: #fff;
+  padding: 15px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.title-border-1 {
+  background: #b7b7b7;
+  width: 355px;
+  height: 2px;
+  margin: 30px auto;
+}
+
+.title-border-2 {
+  background: #12a3b0;
+  width: 140px;
+  height: 2px;
+  margin: 0 auto;
+}
+
+p {
+  color: #6c6c6f;
+}
+
+/* Banner Section */
+.banner-section {
+  background: url('../img/banner-img.png') center no-repeat;
+  background-size: cover;
+}
+
+.banner-section h2 {
+  margin-top: 150px;
+}
+
+.banner-section h1 {
+  color: #12a3b0;
+  font-weight: 900;
+  font-size: 60px;
+}
+
+.btn-banner {
+  margin: 25px 0 130px 0;
+}
+
+/* Welcome Section */
+.welcome-section {
+  padding: 75px 0;
+}
+
+.welcome-section h2 {
+  text-align: center;
+  letter-spacing: 10px;
+}
+
+.welcome-section h2 span {
+  color: #12a3b0;
+}
+
+.welcome-section p {
+  text-align: center;
+  padding: 0 300px;
+}
+
+/* Features Section */
+.features-section h2 {
+  text-align: center;
+  letter-spacing: 10px;
+}
+
+.features-section h2 span {
+  color: #12a3b0;
+}
+
+.features-section p {
+  text-align: center;
+  padding: 0 300px;
+}
+
+.features {
+  text-align: center;
+  border: 2px dashed #333;
+  padding: 20px;
+  border-radius: 25px;
+  transition: 0.4s ease-in-out;
+  margin-left: 10px;
+}
+
+.features p {
+  padding: 0;
+  margin: 20px 0 0;
+  font-size: 15px;
+}
+
+.features:hover {
+  background-color: #12a3b0;
+  border: 0;
+}
+
+.features:hover p {
+  color: #fff;
+}
+
+.features:hover svg path {
+  fill: #fff;
+}
